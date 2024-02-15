@@ -67,3 +67,5 @@ partial class Human
 
 }
 #endregion
+
+// null conditional, null coalesing
