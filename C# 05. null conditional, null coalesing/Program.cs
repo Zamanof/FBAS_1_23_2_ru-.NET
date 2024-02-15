@@ -1,8 +1,10 @@
 ﻿// in reference
 // ?. - null conditional
 // ?? - null coalesing
+// ! - null forgiving https://learn.microsoft.com/ru-ru/dotnet/csharp/language-reference/operators/null-forgiving
 
 #region in reference
+// https://www.c-sharpcorner.com/article/c-sharp-7-2-in-parameter-and-performance/
 //MyStruct myStruct = new MyStruct();
 //myStruct.Value = 25;
 //myStruct.Value1 = 30;
@@ -21,6 +23,7 @@
 #endregion
 
 #region ?.
+// https://learn.microsoft.com/ru-ru/dotnet/csharp/language-reference/operators/member-access-operators#null-conditional-operators--and-
 //string name = "SALAM";
 
 //if (name != null)
@@ -40,6 +43,7 @@
 #endregion
 
 #region ??
+// https://learn.microsoft.com/ru-ru/dotnet/csharp/language-reference/operators/null-coalescing-operator
 string str = null;
 
 //if (str is null)
@@ -56,7 +60,8 @@ Console.WriteLine(str2);
 #endregion
 
 #region Nullable type
-//Nullable<int> code = null;
+// https://learn.microsoft.com/ru-ru/dotnet/csharp/language-reference/builtin-types/nullable-value-types
+// Nullable<int> code = null;
 int? dataBaseCodeValue = 26;
 int? code = dataBaseCodeValue;
 Console.WriteLine(code + 52);

@@ -49,6 +49,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C# 05", "C# 05", "{BAC45158
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C# 05. null conditional, null coalesing", "C# 05. null conditional, null coalesing\C# 05. null conditional, null coalesing.csproj", "{EF585F04-A758-4C9F-B158-A8A3CFE2CB61}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C# 05. Namespaces", "C# 05. Namespaces\C# 05. Namespaces.csproj", "{CB763EDD-8AAA-40F3-8BDC-440F5B21FDB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C# 05. Deconstructing", "C# 05. Deconstructing\C# 05. Deconstructing.csproj", "{F39294D4-D387-4735-AFD9-92E8816ACD29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -127,6 +131,14 @@ Global
 		{EF585F04-A758-4C9F-B158-A8A3CFE2CB61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF585F04-A758-4C9F-B158-A8A3CFE2CB61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF585F04-A758-4C9F-B158-A8A3CFE2CB61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB763EDD-8AAA-40F3-8BDC-440F5B21FDB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB763EDD-8AAA-40F3-8BDC-440F5B21FDB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB763EDD-8AAA-40F3-8BDC-440F5B21FDB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB763EDD-8AAA-40F3-8BDC-440F5B21FDB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F39294D4-D387-4735-AFD9-92E8816ACD29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F39294D4-D387-4735-AFD9-92E8816ACD29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F39294D4-D387-4735-AFD9-92E8816ACD29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F39294D4-D387-4735-AFD9-92E8816ACD29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -150,6 +162,8 @@ Global
 		{5EC8C1CF-4AB1-4776-AB8A-6A975670DEB5} = {7E63B6DB-C569-4AC7-9007-DDB2E0D76752}
 		{61DCCED3-881C-4B31-BD93-7BC2030AF916} = {7E63B6DB-C569-4AC7-9007-DDB2E0D76752}
 		{EF585F04-A758-4C9F-B158-A8A3CFE2CB61} = {BAC45158-084C-4B20-8758-E38B1B6C0A49}
+		{CB763EDD-8AAA-40F3-8BDC-440F5B21FDB4} = {BAC45158-084C-4B20-8758-E38B1B6C0A49}
+		{F39294D4-D387-4735-AFD9-92E8816ACD29} = {BAC45158-084C-4B20-8758-E38B1B6C0A49}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {90D8ED24-4E17-4C7B-9B16-171719ADE287}
