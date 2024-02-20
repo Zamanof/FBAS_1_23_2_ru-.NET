@@ -47,11 +47,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C# 04. Partial class exampl
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C# 05", "C# 05", "{BAC45158-084C-4B20-8758-E38B1B6C0A49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C# 05. null conditional, null coalesing", "C# 05. null conditional, null coalesing\C# 05. null conditional, null coalesing.csproj", "{EF585F04-A758-4C9F-B158-A8A3CFE2CB61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C# 05. null conditional, null coalesing", "C# 05. null conditional, null coalesing\C# 05. null conditional, null coalesing.csproj", "{EF585F04-A758-4C9F-B158-A8A3CFE2CB61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C# 05. Namespaces", "C# 05. Namespaces\C# 05. Namespaces.csproj", "{CB763EDD-8AAA-40F3-8BDC-440F5B21FDB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C# 05. Namespaces", "C# 05. Namespaces\C# 05. Namespaces.csproj", "{CB763EDD-8AAA-40F3-8BDC-440F5B21FDB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C# 05. Deconstructing", "C# 05. Deconstructing\C# 05. Deconstructing.csproj", "{F39294D4-D387-4735-AFD9-92E8816ACD29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C# 05. Deconstructing", "C# 05. Deconstructing\C# 05. Deconstructing.csproj", "{F39294D4-D387-4735-AFD9-92E8816ACD29}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C# 06", "C# 06", "{852DBC46-55E1-45AA-833F-85AC7434A6EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C# 06. Operator overloading", "C# 06. Operator overloading\C# 06. Operator overloading.csproj", "{80374C78-897B-401A-BC46-4FB494EB058B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C# 06. Typecasting overloading", "C# 06. Typecasting overloading\C# 06. Typecasting overloading.csproj", "{A1089A01-12F4-4DAB-B1A0-A47E959B55F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C# 06. Indexer", "C# 06. Indexer\C# 06. Indexer.csproj", "{A21EB0CB-A4E2-4459-B1AD-16310F41811A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -139,6 +147,18 @@ Global
 		{F39294D4-D387-4735-AFD9-92E8816ACD29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F39294D4-D387-4735-AFD9-92E8816ACD29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F39294D4-D387-4735-AFD9-92E8816ACD29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80374C78-897B-401A-BC46-4FB494EB058B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80374C78-897B-401A-BC46-4FB494EB058B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80374C78-897B-401A-BC46-4FB494EB058B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80374C78-897B-401A-BC46-4FB494EB058B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1089A01-12F4-4DAB-B1A0-A47E959B55F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1089A01-12F4-4DAB-B1A0-A47E959B55F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1089A01-12F4-4DAB-B1A0-A47E959B55F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1089A01-12F4-4DAB-B1A0-A47E959B55F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A21EB0CB-A4E2-4459-B1AD-16310F41811A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A21EB0CB-A4E2-4459-B1AD-16310F41811A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A21EB0CB-A4E2-4459-B1AD-16310F41811A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A21EB0CB-A4E2-4459-B1AD-16310F41811A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -164,6 +184,9 @@ Global
 		{EF585F04-A758-4C9F-B158-A8A3CFE2CB61} = {BAC45158-084C-4B20-8758-E38B1B6C0A49}
 		{CB763EDD-8AAA-40F3-8BDC-440F5B21FDB4} = {BAC45158-084C-4B20-8758-E38B1B6C0A49}
 		{F39294D4-D387-4735-AFD9-92E8816ACD29} = {BAC45158-084C-4B20-8758-E38B1B6C0A49}
+		{80374C78-897B-401A-BC46-4FB494EB058B} = {852DBC46-55E1-45AA-833F-85AC7434A6EB}
+		{A1089A01-12F4-4DAB-B1A0-A47E959B55F3} = {852DBC46-55E1-45AA-833F-85AC7434A6EB}
+		{A21EB0CB-A4E2-4459-B1AD-16310F41811A} = {852DBC46-55E1-45AA-833F-85AC7434A6EB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {90D8ED24-4E17-4C7B-9B16-171719ADE287}
