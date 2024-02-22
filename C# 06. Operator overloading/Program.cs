@@ -1,9 +1,11 @@
 ﻿// operator overloading
-Point point = new(x: 3, y: 3);
+using System.Threading.Channels;
+
+Point point = new(x: 0, y: 0);
 Point point2 = new Point
 {
     X = 3,
-    Y = 0
+    Y = 15
 };
 //Console.WriteLine(point);
 //Console.WriteLine(point2);
@@ -16,8 +18,13 @@ Point point2 = new Point
 //Console.WriteLine(point.Equals(point2));
 //Console.WriteLine(point == point2);
 //Console.WriteLine(point != point2);
-Console.WriteLine(point | point2);
-Console.WriteLine(point || point2);
+Console.WriteLine(point & point2);
+Console.WriteLine(point && point2);
+if (point && point2)
+{
+    Console.WriteLine("Yes");
+}
+
 //if (point)
 //{
 //    Console.WriteLine("Point not in coordinates start");
