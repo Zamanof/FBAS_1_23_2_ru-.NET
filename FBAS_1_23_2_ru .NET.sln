@@ -91,6 +91,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C# 10. EventArgs", "C# 10. 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C# 10. EventsAddRemove", "C# 10. EventsAddRemove\C# 10. EventsAddRemove.csproj", "{976AB956-B6CD-4B42-9BB1-5E3666EFFC0C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C# 10. Generics", "C# 10. Generics\C# 10. Generics.csproj", "{752C6EE2-BC55-4D67-B40F-C830B1C96930}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -233,6 +235,10 @@ Global
 		{976AB956-B6CD-4B42-9BB1-5E3666EFFC0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{976AB956-B6CD-4B42-9BB1-5E3666EFFC0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{976AB956-B6CD-4B42-9BB1-5E3666EFFC0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{752C6EE2-BC55-4D67-B40F-C830B1C96930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{752C6EE2-BC55-4D67-B40F-C830B1C96930}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{752C6EE2-BC55-4D67-B40F-C830B1C96930}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{752C6EE2-BC55-4D67-B40F-C830B1C96930}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -272,6 +278,7 @@ Global
 		{FE4A5CD9-C928-456B-B937-5E27A133ED6F} = {9315C071-3013-49BA-B80E-9C4D81DA9581}
 		{A381B3CF-9C66-408F-842E-959B71BDECA4} = {9315C071-3013-49BA-B80E-9C4D81DA9581}
 		{976AB956-B6CD-4B42-9BB1-5E3666EFFC0C} = {9315C071-3013-49BA-B80E-9C4D81DA9581}
+		{752C6EE2-BC55-4D67-B40F-C830B1C96930} = {9315C071-3013-49BA-B80E-9C4D81DA9581}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {90D8ED24-4E17-4C7B-9B16-171719ADE287}
