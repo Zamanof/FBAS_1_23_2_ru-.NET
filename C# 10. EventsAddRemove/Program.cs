@@ -51,7 +51,7 @@ class Teacher
     Random _random = new Random();
     public event ExamDelegate examEvent
     {
-        add 
+        add
         {
             for (int key = 0; ;)
             {
@@ -63,7 +63,7 @@ class Teacher
                 }
             }
         }
-        remove 
+        remove
         {
             _sortedEvents.RemoveAt(_sortedEvents.IndexOfValue(value));
         }

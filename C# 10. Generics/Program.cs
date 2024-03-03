@@ -9,11 +9,11 @@
  */
 
 // boxing - unboxing
-object obj = 5.6; // boxing 
-Console.WriteLine($"Boxing - {obj}");
+//object obj = 5.6; // boxing 
+//Console.WriteLine($"Boxing - {obj}");
 
-double number = (double)obj; // unboxing
-Console.WriteLine($"Unboxing - {number}");
+//double number = (double)obj; // unboxing
+//Console.WriteLine($"Unboxing - {number}");
 
 // Generic
 
