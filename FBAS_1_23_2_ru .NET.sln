@@ -95,17 +95,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C# 10. Generics", "C# 10. G
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C# 11", "C# 11", "{D8D33FC4-4315-404A-8BD0-A08FB186187D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C# 11. Collections", "C# 11. Collections\C# 11. Collections.csproj", "{4EB97998-5ACF-4D51-85DA-DB513F71F2E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C# 11. Collections", "C# 11. Collections\C# 11. Collections.csproj", "{4EB97998-5ACF-4D51-85DA-DB513F71F2E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C# 11. Generic collections", "C# 11. Generic collections\C# 11. Generic collections.csproj", "{31732F62-D2CA-49C4-A8C2-FB65477C2782}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C# 11. Generic collections", "C# 11. Generic collections\C# 11. Generic collections.csproj", "{31732F62-D2CA-49C4-A8C2-FB65477C2782}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C# 11. Generic VS Non Generic", "C# 11. Generic VS Non Generic\C# 11. Generic VS Non Generic.csproj", "{A90B453F-0E4D-4C9B-ABA6-EBC763BEEABA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C# 11. Generic VS Non Generic", "C# 11. Generic VS Non Generic\C# 11. Generic VS Non Generic.csproj", "{A90B453F-0E4D-4C9B-ABA6-EBC763BEEABA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C#11. Anonymous methods", "C#11. Anonymous methods\C#11. Anonymous methods.csproj", "{46275153-9E78-4DCE-AA49-E2D0CF2118D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C#11. Anonymous methods", "C#11. Anonymous methods\C#11. Anonymous methods.csproj", "{46275153-9E78-4DCE-AA49-E2D0CF2118D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C# 11. Lambda expression", "C# 11. Lambda expression\C# 11. Lambda expression.csproj", "{EFC6C4CA-2D61-4E88-AC72-1B2F1893EEBB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C# 11. Lambda expression", "C# 11. Lambda expression\C# 11. Lambda expression.csproj", "{EFC6C4CA-2D61-4E88-AC72-1B2F1893EEBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C# 11. LINQ", "C# 11. LINQ\C# 11. LINQ.csproj", "{FE25F505-819D-4F02-B7DE-E4E51784F574}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C# 11. LINQ", "C# 11. LINQ\C# 11. LINQ.csproj", "{FE25F505-819D-4F02-B7DE-E4E51784F574}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C# 12", "C# 12", "{1CDBAE64-D274-442D-93A4-2317D67FAC6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C# 12. LINQ join", "C# 12. LINQ join\C# 12. LINQ join.csproj", "{737C8375-B601-4121-B271-9090858822E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C# 12. LINQ Methods", "C# 12. LINQ Methods\C# 12. LINQ Methods.csproj", "{6DE88E8F-FA0D-46D2-945F-FCA3CEB60D13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -277,6 +283,14 @@ Global
 		{FE25F505-819D-4F02-B7DE-E4E51784F574}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE25F505-819D-4F02-B7DE-E4E51784F574}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE25F505-819D-4F02-B7DE-E4E51784F574}.Release|Any CPU.Build.0 = Release|Any CPU
+		{737C8375-B601-4121-B271-9090858822E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{737C8375-B601-4121-B271-9090858822E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{737C8375-B601-4121-B271-9090858822E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{737C8375-B601-4121-B271-9090858822E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DE88E8F-FA0D-46D2-945F-FCA3CEB60D13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DE88E8F-FA0D-46D2-945F-FCA3CEB60D13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DE88E8F-FA0D-46D2-945F-FCA3CEB60D13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DE88E8F-FA0D-46D2-945F-FCA3CEB60D13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -323,6 +337,8 @@ Global
 		{46275153-9E78-4DCE-AA49-E2D0CF2118D6} = {D8D33FC4-4315-404A-8BD0-A08FB186187D}
 		{EFC6C4CA-2D61-4E88-AC72-1B2F1893EEBB} = {D8D33FC4-4315-404A-8BD0-A08FB186187D}
 		{FE25F505-819D-4F02-B7DE-E4E51784F574} = {D8D33FC4-4315-404A-8BD0-A08FB186187D}
+		{737C8375-B601-4121-B271-9090858822E5} = {1CDBAE64-D274-442D-93A4-2317D67FAC6A}
+		{6DE88E8F-FA0D-46D2-945F-FCA3CEB60D13} = {1CDBAE64-D274-442D-93A4-2317D67FAC6A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {90D8ED24-4E17-4C7B-9B16-171719ADE287}

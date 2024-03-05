@@ -42,18 +42,18 @@ IEnumerable<int> query = from i in arr
 //Console.WriteLine();
 
 // group by
-var group = from i in arr
-            where i > 0
-            group i by i % 2;
+//var group = from i in arr
+//            where i > 0
+//            group i by i % 2;
 
-foreach (var item in group)
-{
-    Console.WriteLine(item.Key);
-    foreach (var value in item)
-    {
-        Console.WriteLine($"    {value}");
-    }
-}
+//foreach (var item in group)
+//{
+//    Console.WriteLine(item.Key);
+//    foreach (var value in item)
+//    {
+//        Console.WriteLine($"    {value}");
+//    }
+//}
 
 // into
 
