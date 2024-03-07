@@ -16,7 +16,6 @@ new Group() {Id = 7, Name="FBEN_1211_ru", Faculty="Design"}
 
 };
 
-
 List<Student> students = new List<Student>
 {
 
@@ -372,6 +371,7 @@ List<Student> students = new List<Student>
     }
 };
 
+#region First, FirstOrDefault
 // First, FirstOrDefault
 //var stud = students.First(s => s.Id == 15);
 //Console.WriteLine(stud);
@@ -379,8 +379,9 @@ List<Student> students = new List<Student>
 //var stud = students.FirstOrDefault(s => s.Id == 51);
 //if(stud is not null) Console.WriteLine(stud);
 //else Console.WriteLine("Student is not found");
+#endregion
 
-
+#region Single, SingleOrDefault
 // Single, SingleOrDefault
 //var stud = students.Single(s => s.Age > 20);
 //Console.WriteLine(stud);
@@ -388,7 +389,9 @@ List<Student> students = new List<Student>
 //var stud = students.SingleOrDefault(s => s.Age == 115);
 //if (stud is not null) Console.WriteLine(stud);
 //else Console.WriteLine("Student is not found");
+#endregion
 
+#region Contains
 // Contains
 //var student = new Student
 //{
@@ -401,10 +404,10 @@ List<Student> students = new List<Student>
 
 //var value = students.Contains(student) ;
 //Console.WriteLine(value);
+#endregion
 
-
+#region Where
 // Where
-
 //var stud = students.Where(s => s.Age > 35);
 //var student = new Student
 //{
@@ -419,7 +422,9 @@ List<Student> students = new List<Student>
 //{
 //    Console.WriteLine(item);
 //}
+#endregion
 
+#region Max Min, Average, Sum
 // Max Min
 
 //var maxResult = students.Max(s=>s.Age);
@@ -442,7 +447,9 @@ List<Student> students = new List<Student>
 //Console.WriteLine(sumAge);
 //var avgAge = students.Average(x => x.Age);
 //Console.WriteLine(avgAge);
+#endregion
 
+#region OrderBy, OrderByDescending, ThenBy, ThenByDescending
 // OrderBy, OrderByDescending
 
 //var studs = students.OrderByDescending(x => x.Age).ToList();
@@ -456,23 +463,64 @@ List<Student> students = new List<Student>
 //{
 //    Console.WriteLine(item);
 //}
+#endregion
 
+#region Take, Skip, TakeLast, SkipLast, SkipWhile, TakeWhile
 // Take, Skip, TakeLast, SkipLast, SkipWhile, TakeWhile
 
-var studs = students.Skip(10).Take(15).ToList();
+//var studs = students.Skip(10).Take(15).ToList();
 //foreach (var item in studs)
 //{
 //    Console.WriteLine(item);
 //}
 
-studs.ForEach(Console.WriteLine);
+//studs.ForEach(Console.WriteLine);
+#endregion
 
-
+#region All, Any
 // All, Any 
 //var check = students.Any(s => s.Age > 45);
 //Console.WriteLine(check);
 //var checkAll = students.All(s => s.Age > 10);
 //Console.WriteLine(checkAll);
+#endregion
+
+#region Join, GroupJoin
+// Join, GroupJoin
+//var result = groups.Join(students,
+//                        g => g.Id,
+//                        s => s.GroupId,
+//                        (g, s) => 
+//                        new { 
+//                            Firstname = s.FirstName, 
+//                            LastName = s.LastName, 
+//                            Age = s.Age, 
+//                            GroupName = g.Name });
+
+//foreach (var stud in result)
+//{
+//    Console.WriteLine($"{stud.Firstname} {stud.LastName} {stud.Age} - {stud.GroupName}");
+//}
+
+//var result1 = groups.GroupJoin(students,
+//                        g => g.Id,
+//                        s => s.GroupId,
+//                        (g, students) => new
+//                        {
+//                            GroupName = g.Name,
+//                            Students = students
+//                        });
+
+//foreach (var item in result1)
+//{
+//    Console.WriteLine(item.GroupName);
+//    foreach (var stud in item.Students)
+//    {
+//        Console.WriteLine($"    {stud}");
+//    }
+//}
+#endregion
+
 
 class Group
 {

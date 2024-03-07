@@ -380,8 +380,7 @@ foreach (var stud in result)
 }
 Console.WriteLine(); 
 var result2 = from r in result
-              group r by r.GroupName
-              ;
+              group r by r.GroupName;
 
 //foreach (var res in result2)
 //{
