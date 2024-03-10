@@ -115,9 +115,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C# 12. LINQ Methods", "C# 1
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C# 13", "C# 13", "{77A7CD79-43DF-4C46-8B8D-A12BE66DC75A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C# 13. Exceptions", "C# 13. Exceptions\C# 13. Exceptions.csproj", "{C21462D2-6610-4C81-B16C-5858CCC62977}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C# 13. Exceptions", "C# 13. Exceptions\C# 13. Exceptions.csproj", "{C21462D2-6610-4C81-B16C-5858CCC62977}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C# 13. Extension methods", "C# 13. Extension methods\C# 13. Extension methods.csproj", "{E26C7A03-0126-4C0C-9679-DD767F54B9B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C# 13. Extension methods", "C# 13. Extension methods\C# 13. Extension methods.csproj", "{E26C7A03-0126-4C0C-9679-DD767F54B9B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C# 14", "C# 14", "{A94DFA40-4DA3-45D7-9B47-9E12800B658A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C# 14. Garbage Collector example", "C# 14. Garbage Collector example\C# 14. Garbage Collector example.csproj", "{C9221134-209F-4F3A-AC5B-2089B862DF3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{EAF23A35-254C-4018-864A-F3B6A64231A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -305,6 +311,14 @@ Global
 		{E26C7A03-0126-4C0C-9679-DD767F54B9B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E26C7A03-0126-4C0C-9679-DD767F54B9B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E26C7A03-0126-4C0C-9679-DD767F54B9B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9221134-209F-4F3A-AC5B-2089B862DF3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9221134-209F-4F3A-AC5B-2089B862DF3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9221134-209F-4F3A-AC5B-2089B862DF3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9221134-209F-4F3A-AC5B-2089B862DF3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAF23A35-254C-4018-864A-F3B6A64231A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAF23A35-254C-4018-864A-F3B6A64231A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAF23A35-254C-4018-864A-F3B6A64231A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAF23A35-254C-4018-864A-F3B6A64231A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -355,6 +369,8 @@ Global
 		{6DE88E8F-FA0D-46D2-945F-FCA3CEB60D13} = {1CDBAE64-D274-442D-93A4-2317D67FAC6A}
 		{C21462D2-6610-4C81-B16C-5858CCC62977} = {77A7CD79-43DF-4C46-8B8D-A12BE66DC75A}
 		{E26C7A03-0126-4C0C-9679-DD767F54B9B9} = {77A7CD79-43DF-4C46-8B8D-A12BE66DC75A}
+		{C9221134-209F-4F3A-AC5B-2089B862DF3D} = {A94DFA40-4DA3-45D7-9B47-9E12800B658A}
+		{EAF23A35-254C-4018-864A-F3B6A64231A0} = {A94DFA40-4DA3-45D7-9B47-9E12800B658A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {90D8ED24-4E17-4C7B-9B16-171719ADE287}

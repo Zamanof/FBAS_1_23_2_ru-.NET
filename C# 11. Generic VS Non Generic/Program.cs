@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.Collections.Generic;
 using System.Diagnostics;
 
 ValueTypePerfTest();
@@ -19,11 +20,13 @@ void ValueTypePerfTest()
     {
         // use of a generic list
         List<int> list = new List<int>(COUNT);
+        Console.WriteLine(GC.GetGeneration(list));
         for (int n = 0; n < COUNT; n++)
         {
             list.Add(n);
             int x = list[n];
         }
+        Console.WriteLine(GC.GetGeneration(list));
         list = null; // for guaranteed execution 
                      // of garbage collection
     }
@@ -31,10 +34,23 @@ void ValueTypePerfTest()
     {
         // use of a non-generic collection
         ArrayList array = new ArrayList();
+        Console.WriteLine(GC.GetGeneration(array));
+        int ch = 0;
         for (int n = 0; n < COUNT; n++)
         {
             array.Add(n); // boxing
             int x = (int)array[n]; // unboxing
+            if (GC.GetGeneration(array) == 1 && ch == 0)
+            {
+                Console.WriteLine($"{n}-th iteration : Managed heap generation {GC.GetGeneration(array)}");
+                ch++;
+            }
+            if (GC.GetGeneration(array) == 2 && ch == 1)
+            {
+                Console.WriteLine($"{n}-th iteration : Managed heap generation {GC.GetGeneration(array)}");
+                ch++;
+            }
+
         }
         array = null; // for guaranteed execution 
                       // of garbage collection
@@ -74,6 +90,7 @@ sealed class OperationTimer : IDisposable
     public void Dispose()
     {
         Console.WriteLine($"{_text}\t{(Stopwatch.GetTimestamp() - _startTime) / (double)Stopwatch.Frequency:0.00} seconds(garbage collections {GC.CollectionCount(0) - _collectionCount})");
+
     }
     /// <summary>
     /// The method deletes all unused objects
