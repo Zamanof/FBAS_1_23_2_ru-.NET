@@ -130,44 +130,46 @@
 // Action<T>, Func<T>, Predicate<T>, Comparison<T>
 
 #region Action
-int[] arr = new int[25];
-Random random = new Random();
-for (int i = 0; i < arr.Length; i++)
-{
-    arr[i] = random.Next(10, 99);
-}
-foreach (int i in arr)
-{
-    Console.Write($"{i} ");
-}
-Console.WriteLine();
+//int[] arr = new int[25];
+//Random random = new Random();
+//for (int i = 0; i < arr.Length; i++)
+//{
+//    arr[i] = random.Next(10, 99);
+//}
+//foreach (int i in arr)
+//{
+//    Console.Write($"{i} ");
+//}
+//Console.WriteLine();
 
-//Opertions(arr, ShowSquare);
-Opertions(arr, ShowNegative);
-Action<int, double> action1 = Foo1;
-action1.Invoke(2, 63.6);
-void Opertions(int[] ints, Action<int> action)
-{
-    foreach(var item in ints)
-    {
-        action(item);
-    }
-    Console.WriteLine();
-}
+////Opertions(arr, ShowSquare);
+//Opertions(arr, ShowNegative);
+//Action<int, double> action1 = Foo1;
+//action1.Invoke(2, 63.6);
+//void Opertions(int[] ints, Action<int> action)
+//{
+//    foreach(var item in ints)
+//    {
+//        action(item);
+//    }
+//    Console.WriteLine();
+//}
 
-void ShowSquare(int num)
-{
-    Console.Write($"{num * num} ");
-}
+//void ShowSquare(int num)
+//{
+//    Console.Write($"{num * num} ");
+//}
 
-void ShowNegative(int num)
-{
-    Console.Write($"{-num} ");
-}
+//void ShowNegative(int num)
+//{
+//    Console.Write($"{-num} ");
+//}
 
-void Foo1(int a, double b)
-{
-    Console.WriteLine(a*b);
-}
+//void Foo1(int a, double b)
+//{
+//    Console.WriteLine(a*b);
+//}
 
 #endregion
+
+// Func<T>, Predicate<T>, Comparison<T>, events
