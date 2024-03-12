@@ -7,7 +7,7 @@ SomeClass some = new SomeClass();
 //ISomeInterface some1 = new SomeClass();
 //some1.SomeMethod();
 Foo(some);
-
+throw new NotImplementedException();
 void Foo(ISomeInterface some)
 {
     ((SomeClass)some).SomeMethod(4, 6);
