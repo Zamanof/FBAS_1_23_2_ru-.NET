@@ -8,6 +8,7 @@ Console.WriteLine($"Generation {GC.GetGeneration(garbageHelper)}");
 GC.Collect();
 Console.WriteLine($"Generation {GC.GetGeneration(garbageHelper)}");
 GC.Collect();
+GC.Collect();
 class Person
 {
     public string? FirstName { get; set; }
